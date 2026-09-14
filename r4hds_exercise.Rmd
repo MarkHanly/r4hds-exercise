@@ -2,6 +2,7 @@
 title: "HDAT9700 Statistical Modelling II"
 subtitle: "R for Health data Science---Exercises"
 author: "Mark Hanly"
+date: "14 Sep 2026"
 output: github_document
 ---
 

@@ -5,6 +5,12 @@ Mark Hanly
 
 Hi this mark.
 
+``` r
+plot(cars)
+```
+
+![](r4hds_exercise_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+
 # Overview
 
 The examples and exercises in this document are designed to help you you
@@ -220,7 +226,7 @@ ggplot(
     ## Warning: Removed 2 rows containing non-finite outside the scale range
     ## (`stat_density()`).
 
-![](r4hds_exercise_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](r4hds_exercise_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ------------------------------------------------------------------------
 
@@ -255,7 +261,7 @@ p1 <- ggplot(
 p1
 ```
 
-![](r4hds_exercise_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](r4hds_exercise_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 ### A boxplot (1 numeric variable)
 
@@ -268,7 +274,7 @@ p2 <- ggplot(
 p2
 ```
 
-![](r4hds_exercise_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](r4hds_exercise_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
 ### A bar plot (1 categorical variable)
 
@@ -288,7 +294,7 @@ p3 <- ggplot(
 p3
 ```
 
-![](r4hds_exercise_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](r4hds_exercise_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 ## Bivariate plots
 
@@ -303,7 +309,7 @@ p4 <- ggplot(
 p4
 ```
 
-![](r4hds_exercise_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](r4hds_exercise_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 ### A grouped boxplot (1 numeric and 1 categorical variable)
 
@@ -316,7 +322,7 @@ p5 <- ggplot(
 p5
 ```
 
-![](r4hds_exercise_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](r4hds_exercise_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
 ### A scatterplot (2 numeric variables)
 
@@ -329,7 +335,7 @@ p6 <- ggplot(
 p6
 ```
 
-![](r4hds_exercise_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](r4hds_exercise_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 ## Multivariate plots
 
@@ -344,7 +350,7 @@ p7 <- ggplot(
 p7
 ```
 
-![](r4hds_exercise_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](r4hds_exercise_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
 ### A facetted scatter plot (2 numeric variables and 1 categorical variable)
 
@@ -358,7 +364,7 @@ p8 <- ggplot(
 p8
 ```
 
-![](r4hds_exercise_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](r4hds_exercise_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
 
 ## Combining plots
 
@@ -368,7 +374,7 @@ library(ggpubr)
 ggarrange(p1, p2, p3, p4, labels = 'AUTO')
 ```
 
-![](r4hds_exercise_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![](r4hds_exercise_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
 
 ## Labels
 
@@ -398,7 +404,7 @@ p9 <- ggplot(
 p9
 ```
 
-![](r4hds_exercise_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
+![](r4hds_exercise_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
 
 ## Exercise (4 of 4)
 

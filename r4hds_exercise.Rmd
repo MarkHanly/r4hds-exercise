@@ -7,6 +7,10 @@ output: github_document
 ---
 Hi this mark. 
 
+```{r}
+plot(cars)
+```
+
 
 
 ```{r setup, include=FALSE}

@@ -3,6 +3,8 @@ HDAT9700 Statistical Modelling II
 Mark Hanly
 14 Sep 2026
 
+Hi this mark.
+
 # Overview
 
 The examples and exercises in this document are designed to help you you
